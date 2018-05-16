@@ -76,5 +76,5 @@ lists:foldl(fun(Fun, Cfg) ->
         Fun(Cfg)
     end,
     CONFIG,
-    [Setns]
+    []
 ).
